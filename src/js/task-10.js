@@ -17,7 +17,7 @@ function createBoxes (amount){
   amount = inputAmount.value;
   const array = [];
 
-  for (let i=0; i<=amount; i++){
+  for (let i=1; i<=amount; i++){
     const newDiv = document.createElement("div")
     newDiv.style.backgroundColor = getRandomHexColor();
     
